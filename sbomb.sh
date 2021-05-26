@@ -1,3 +1,3 @@
 figlet sukhdevr898
-php -S localhost:8080
+pph index.php -S localhost:8080
 

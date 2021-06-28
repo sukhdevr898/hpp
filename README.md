@@ -15,7 +15,7 @@ $ cd sbomb
 
 
 
-$ **bash run.sh**
+$ **bash install.sh**
 
 
 **#next time bash sbomb.sh**

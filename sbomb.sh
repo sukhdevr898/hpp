@@ -106,9 +106,6 @@ bash install.sh
 N)
 echo -e "\n\t\tEXITING"
 ;;
-echo "ENTER Y OR N ONLY "
-cd ..
-bash sbomb.sh
-;;
+
 esac
 

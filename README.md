@@ -4,6 +4,17 @@ $ apt update && apt upgrade -y
 
 $ pkg install git -y
 
+$ pkg install php -y
+
+
+$ pkg install figlet -y 
+
+
+$ pkg install python -y
+
+
+$ pkg install wget -y
+
 
 
 $ git clone https://github.com/sukhdevr898/sbomb/
@@ -18,5 +29,5 @@ $ chmod +x *
 $ bash install.sh
 
 
-#next time bash sbomb.sh
+#next time $ bash sbomb.sh
 

@@ -23,64 +23,64 @@ case "$app" in
   1)
 echo "PLEASE WAIT..."
 cd $HOME
+cd /sdcard/sukhdevr898
 wget https://download1082.mediafire.com/h5y61ybh43pg/oavzscf85ws47t8/5_6080304459857002813.apk
-acho "COPY FILE NAME FROM HERE AND PASTE IN NEXT PROMT"
-read -p "ENTER FILE NAME : " file
-cd /sdcard
-mkdir sukhdevr898
-mv $file /sdcard/sukhdevr898
+acho -e "\n\t\tDOWNLOAD COMPLETED..."
+echo -e "YOUR FILE SAVED IN INTERNAL STORAGE IN SUKHDEVR898 FOLDER"
+cd $HOME/sbomb/core
+bash apps.sh
+
 ;;
 2)
 echo "PLEASE WAIT..."
 cd $HOME
+cd /sdcard/sukhdevr898
 wget https://files.moddroid.com/Truecaller/Truecalle_11.65.7.apk
-acho "COPY FILE NAME FROM HERE AND PASTE IN NEXT PROMT"
-read -p "ENTER FILE NAME : " file
-cd /sdcard
-mkdir sukhdevr898
-mv $file /sdcard/sukhdevr898
+acho -e "\n\t\tDOWNLOAD COMPLETED..."
+echo -e "YOUR FILE SAVED IN INTERNAL STORAGE IN SUKHDEVR898 FOLDER"
+cd $HOME/sbomb/core
+bash apps.sh
 ;;
 
 3)
 echo "PLEASE WAIT..."
 cd $HOME
+cd /sdcard/sukhdevr898
 wget https://www.apkmirror.com/wp-content/themes/APKMirror/download.php?id=2341039
-acho "COPY FILE NAME FROM HERE AND PASTE IN NEXT PROMT"
-echo "for full info go to our site "
-read -p "ENTER FILE NAME : " file
-cd /sdcard
-mkdir sukhdevr898
-mv $file /sdcard/sukhdevr898
+acho -e "\n\t\tDOWNLOAD COMPLETED..."
+echo -e "YOUR FILE SAVED IN INTERNAL STORAGE IN SUKHDEVR898 FOLDER"
+cd $HOME/sbomb/core
+bash apps.sh
 ;;
 4)
 echo "PLEASE WAIT..."
 cd $HOME
+cd /sdcard/sukhdevr898
 wget https://download2388.mediafire.com/gh101miygkpg/dolaun4833zfpco/com.instagram.android_277249234.apk
-acho "COPY FILE NAME FROM HERE AND PASTE IN NEXT PROMT"
-read -p "ENTER FILE NAME : " file
-cd /sdcard
-mkdir sukhdevr898
-mv $file /sdcard/sukhdevr898
+acho -e "\n\t\tDOWNLOAD COMPLETED..."
+echo -e "YOUR FILE SAVED IN INTERNAL STORAGE IN SUKHDEVR898 FOLDER"
+cd $HOME/sbomb/core
+bash apps.sh
 ;;
 5)
 echo "PLEASE WAIT..."
 cd $HOME
+cd /sdcard/sukhdevr898
 wget https://download1466.mediafire.com/pixtyuusizkg/eeiq1msrhbjpu2p/com.whatsapp_210422007.apk
-acho "COPY FILE NAME FROM HERE AND PASTE IN NEXT PROMT"
-read -p "ENTER FILE NAME : " file
-cd /sdcard
-mkdir sukhdevr898
-mv $file /sdcard/sukhdevr898
+acho -e "\n\t\tDOWNLOAD COMPLETED..."
+cd $HOME/sbomb/core
+echo -e "YOUR FILE SAVED IN INTERNAL STORAGE IN SUKHDEVR898 FOLDER"
+bash apps.sh
 ;;
 6)
 echo "PLEASE WAIT..."
 cd $HOME
+cd /sdcard/sukhdevr898
 wget http://download1593.mediafire.com/8adcg2sh40sg/wr7qug6t68ybzso/thoptv_v40.apk
-acho "COPY FILE NAME FROM HERE AND PASTE IN NEXT PROMT"
-read -p "ENTER FILE NAME : " file
-cd /sdcard
-mkdir sukhdevr898
-mv $file /sdcard/sukhdevr898
+acho -e "\n\t\tDOWNLOAD COMPLETED..."
+cd $HOME/sbomb/core
+echo -e "YOUR FILE SAVED IN INTERNAL STORAGE IN SUKHDEVR898 FOLDER"
+bash apps.sh
 ;;
 7)
 echo "PLEASE WAIT..."

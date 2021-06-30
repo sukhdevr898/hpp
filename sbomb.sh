@@ -103,9 +103,5 @@ git clone https://github.com/sukhdevr898/sbomb/
 cd sbomb
 bash install.sh
 ;;
-N)
-echo -e "\n\t\tEXITING"
-;;
-
 esac
 

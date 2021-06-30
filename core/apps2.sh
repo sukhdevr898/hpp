@@ -14,10 +14,10 @@ cd sukhdevr898
 echo "DIR CREATED"
 cd
 cd sbomb/core
-bash apps2.sh
+bash apps.sh
 ;;
 N)
-bash apps2.sh
+bash apps.sh
 ;;
 
 esac

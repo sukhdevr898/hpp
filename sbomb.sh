@@ -91,8 +91,7 @@ echo "THANK YOU...."
 cd .. 
 bash sbomb.sh
 ;;
-echo "EXITING...."
-;;
+
 esac
 #case 8 option  WANT TO INSTALL AGAIN
 case "$de2" in 

@@ -1,5 +1,5 @@
 #
-echo -e "\e[0;31m $ apt update && apt upgrade -y "
+$ apt update && apt upgrade -y 
 
 
 $ pkg install git -y

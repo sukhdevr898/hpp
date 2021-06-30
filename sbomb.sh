@@ -63,7 +63,7 @@ case "$option" in
 ;;
      7)
     echo "PLEASE WAIT...!"
-    bash apps.sh
+    bash apps2.sh
 ;;
 
    8)
@@ -80,7 +80,7 @@ esac
 #case 8 option 
 case "$del" in
 Y)
-echo -e "\n\t\tDELETING....!"
+echo -e "\n\t\tDELETING...."
 cd $HOME
 rm -rf sbomb
 echo -e "\n\t\tTYPE Y OR N "

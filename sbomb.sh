@@ -7,7 +7,7 @@ echo "version 2.3.1"
 
 python core/run2.py
 
-MPV core/SciFi.mp3
+mpv core/SciFi.mp3
 
 
 echo -e "\e[0;33m██╗███╗░░██╗██████╗░██╗░█████╗░███╗░░██╗"

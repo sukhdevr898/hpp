@@ -1,8 +1,7 @@
 #!/bin/bash
 
 ###
- pkg install wget -y
-  
+ 
 python apps.py
 ##
 #echo

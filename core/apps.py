@@ -55,7 +55,8 @@ logo = """\x1b[34m
 ╚═╝░░╚═╝╚═╝░░░░░╚═╝░░░░░╚═════╝░
 
 
-
+         ALL DOWNLOADED APPS WILL BE SAVE IN SUKHDEVR898 FOLDER
+                         CHECK YOUR ENTERNAL STORAGE
 
 
 

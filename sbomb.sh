@@ -85,7 +85,7 @@ case "$option" in
 
 
      9)
-     echo "$(ctrl-z)"
+     echo -e  "\e[100m \n\t\t"
     ;;  
 esac
 #case 8 option 
@@ -94,11 +94,11 @@ Y)
 echo -e "\n\t\tDELETING...."
 cd $HOME
 rm -rf sbomb
-echo -e "\n\t\tTYPE Y OR N "
+echo -e "\e[0;31m \n\t\tTYPE Y OR N "
 read -p "YOU WANT TO INSTALL AGAIN SBOMB : " de2
 ;;
 N)
-echo "THANK YOU...."
+echo -e "\e[101m THANK YOU...."
 cd .. 
 bash sbomb.sh
 ;;
@@ -108,11 +108,11 @@ esac
 case "$de2" in 
 Y)
 read -p "ENTER YOUR NAME : " NA
-echo -e "THANK YOU $NA FOR INSTALL AGAIN "
+echo -e "\e[0;31m THANK YOU $NA FOR INSTALL AGAIN "
 cd HOME
 git clone https://github.com/sukhdevr898/sbomb/
 cd sbomb
-bash install.sh
+bash sbomb.sh
 ;;
 esac
 

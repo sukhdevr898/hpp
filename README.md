@@ -26,8 +26,5 @@ $ cd sbomb
 $ chmod +x *
 
 
-$ bash install.sh
-
-
-#next time $ bash sbomb.sh
+$ bash sbomb.sh
 

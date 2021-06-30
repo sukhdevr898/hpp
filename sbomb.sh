@@ -3,22 +3,33 @@ python core/mylogo.py
 
 figlet sukhdevr898
 #echo
-echo "version 2.3"
+echo "version 2.3.1"
 
 python core/run2.py
 
+
+
+
+echo -e "\e[0;33m██╗███╗░░██╗██████╗░██╗░█████╗░███╗░░██╗"
+echo -e "\e[0;33m██║████╗░██║██╔══██╗██║██╔══██╗████╗░██║"
+echo -e "\e[1;37m██║██╔██╗██║██║░░██║██║███████║██╔██╗██║"
+echo -e "\e[1;37m██║██║╚████║██║░░██║██║██╔══██║██║╚████║"
+echo -e "\e[0;32m██║██║░╚███║██████╔╝██║██║░░██║██║░╚███║"
+echo -e "\e[0;32m╚=╝╚═╝░░╚══╝╚═════╝░╚═╝╚═╝░░╚═╝╚═╝░░╚══╝"
+
+
 cd core 
-       echo "1 =>  start"
-      echo "2 => update"
-      echo "3 => about us"
-      echo "4 => font colour "
-     echo "5 => ping tester"
+       echo -e "\e[0;33m 1 =>  start"
+     echo -e "\e[0;33m 2 => update"
+     echo -e "\e[0;33m 3 => about us"
+      echo -e "\e[1;37m 4 => font colour "
+     echo -e "\e[1;37m 5 => ping tester"
 
        
-  echo "6 => best tools"
-    echo "7 => MOD APPS"
-    echo "8 => uninstall sbomb"
-       echo "9 => exit"
+  echo -e "\e[1;37m 6 => best tools"
+   echo -e "\e[0;32m 7 => MOD APPS"
+    echo -e "\e[0;32m 8 => uninstall sbomb"
+       echo -e "\e[0;32m 9 => exit"
 
 #var
 red="0;31"

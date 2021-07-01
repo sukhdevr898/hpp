@@ -1,20 +1,21 @@
 #!\bin\bash
-echo -e "\e[1;31m \n\t\t DOWNLOADING."
+clear
+echo -e "\e[1;31m \n\t\t WAITING."
 sleep 1.0
 clear
-echo -e "\e[1;31m \n\t\t DOWNLOADING.."
+echo -e "\e[1;31m \n\t\t WAITING.."
 sleep 1.0
 clear
-echo -e "\e[1;31m \n\t\t DOWNLOADING..."
+echo -e "\e[1;31m \n\t\t WAITING..."
 sleep 1.0
 clear
-echo -e "\e[1;31m \n\t\t DOWNLOADING."
+echo -e "\e[1;31m \n\t\t WAITING."
 sleep 1.0
 clear
-echo -e "\e[1;31m \n\t\t DOWNLOADING.."
+echo -e "\e[1;31m \n\t\t WAITING.."
 sleep 1.0
 clear
-echo -e "\e[1;31m \n\t\t DOWNLOADING..."
+echo -e "\e[1;31m \n\t\t WAITING..."
 sleep 1.0
 clear
 echo -e "\e[0;32m SELECT A SONG NO. "
@@ -29,7 +30,7 @@ echo -e "\e[0;34m 8 => kCartoon  On  On .mp3"
 echo -e "\e[0;34m 9 =>kKina  Can We Kiss Forever .mp3"
 echo -e "\e[0;34m 10 => back "
 #CASE
-read -p "ENTER SONG NO. " song
+read -p "ENTER SONG NO. :  " song
 
 case "$song" in 
 1)

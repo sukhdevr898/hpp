@@ -1,4 +1,13 @@
 #!/bin/bash
+echo -e "\e[1;31m INSTALLING."
+sleep 0.5
+clear
+   echo -e "\e[1;31m INSTALLING.."
+sleep 0.5
+clear
+   echo -e "\e[1;31m INSTALLING..."
+  sleep 0.5
+clear 
 
 ###
  

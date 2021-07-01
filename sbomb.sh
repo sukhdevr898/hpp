@@ -11,12 +11,18 @@ mpv core/scifi.mp3
 
 
 echo -e "\e[0;33m██╗███╗░░██╗██████╗░██╗░█████╗░███╗░░██╗"
+sleep 1.0
 echo -e "\e[0;33m██║████╗░██║██╔══██╗██║██╔══██╗████╗░██║"
-echo -e "\e[1;37m██║██╔██╗██║██║░░██║██║███████║██╔██╗██║"
-echo -e "\e[1;37m██║██║╚████║██║░░██║██║██╔══██║██║╚████║"
-echo -e "\e[0;32m██║██║░╚███║██████╔╝██║██║░░██║██║░╚███║"
-echo -e "\e[0;32m╚=╝╚═╝░░╚══╝╚═════╝░╚═╝╚═╝░░╚═╝╚═╝░░╚══╝"
+sleep 1.0
 
+echo -e "\e[1;37m██║██╔██╗██║██║░░██║██║███████║██╔██╗██║"
+sleep 1.0
+echo -e "\e[1;37m██║██║╚████║██║░░██║██║██╔══██║██║╚████║"
+sleep 1.0
+echo -e "\e[0;32m██║██║░╚███║██████╔╝██║██║░░██║██║░╚███║"
+sleep 1.0
+echo -e "\e[0;32m╚=╝╚═╝░░╚══╝╚═════╝░╚═╝╚═╝░░╚═╝╚═╝░░╚══╝"
+sleep 1.0
 echo -e "#You can use these ANSI escape codes: \n\t\tCOPY YOUR COLOUR CODE"
 
 #
@@ -55,7 +61,8 @@ cd core
        echo -e "\e[$clr 1 =>  start"
      echo -e "\e[$clr 2 => update"
      echo -e "\e[$clr 3 => about us"
-      echo -e "\e[$clr 4 => font colour "                                                                                  echo -e "\e[$clr 5 => ping tester"
+      echo -e "\e[$clr 4 => font colour" 
+echo -e "\e[$clr 5 => ping tester"
 
 
   echo -e "\e[$clr 6 => best tools"

@@ -1,7 +1,7 @@
 #!/bin/bash
 #ping test
 
-echo "site example www.example.com"
+echo -e "\e[1;31m site example www.example.com"
 
 #var
 read -p "ENTER SITE :" web
@@ -18,13 +18,13 @@ if [ "$ret" = "0" ];
 
 
     then
-        echo "$(figlet reach)"
+        echo -e "\e[1;32m $(figlet -f big reach)"
     else
-       echo "$(figlet non-reach)"
+       echo -e "\e[1;31m $(figlet -f big non-reach)"
 
 fi
 
 
 ##
 
-echo "$ret"
+echo -e "\e[1;31m $ret"

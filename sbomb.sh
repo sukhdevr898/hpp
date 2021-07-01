@@ -180,7 +180,7 @@ sleep 1.0
 clear
 echo -e "\e[$clr \n\t\t WAITING..."
 sleep 1.0
-cd music 
+
 bash music.sh
 ;;
 esac

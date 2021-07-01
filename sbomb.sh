@@ -59,16 +59,16 @@ read -p "PASTE HERE  YOUR COLOUR CODE : " clr
 
 cd core
        echo -e "\e[$clr 1 =>  start"
-     echo -e "\e[$clr 2 => update"
-     echo -e "\e[$clr 3 => about us"
+     echo -e "\e[$clr 2 => MOD APPS"
+     echo -e "\e[$clr 3 => best tools"
       echo -e "\e[$clr 4 => font colour" 
 echo -e "\e[$clr 5 => ping tester"
+echo -e "\e[$clr 6 => background music non copyrighted "
 
-
-  echo -e "\e[$clr 6 => best tools"
-   echo -e "\e[$clr 7 => MOD APPS"
-    echo -e "\e[$clr 8 => uninstall sbomb"
-       echo -e "\e[$clr 9 => exit"
+  echo -e "\e[$clr 7 => about us"
+   echo -e "\e[$clr 8 => update"
+    echo -e "\e[$clr 9 => uninstall sbomb"
+       echo -e "\e[$clr 10 => exit"
 
 #var
 red="0;31"
@@ -93,10 +93,10 @@ case "$option" in
       1)
         echo "$(bash run.sh)"
          ;;
-         2)
+         8)
         echo " $(bash update.sh)"
          ;;
-       3)
+       7)
       echo "$(bash us.sh)"
       ;;
      4)
@@ -123,23 +123,23 @@ bash sbomb.sh
     5)
      echo "$(bash ping.sh)"
     ;;
-     6)
+     3)
      bash best.sh     
 #echo "$(bash best.sh)"
 ;;
-     7)
+     2)
     echo "PLEASE WAIT...!"
     bash apps2.sh
 ;;
 
-   8)
+   9)
    echo -e "\n\t\tYOU WANT TO DELETE SBOMB"
     read -p "TYPE Y OR N  : " del
 ;;
 
 
 
-     9)
+     10)
      echo -e  "\e[100m \n\t\t"
     ;;  
 esac
@@ -170,4 +170,17 @@ cd sbomb
 bash sbomb.sh
 ;;
 esac
-
+case "$option" in 
+6)
+echo -e "\e[$clr \n\t\t WAITING."
+sleep 1.0
+clear
+echo -e "\e[$clr \n\t\t WAITING.."
+sleep 1.0
+clear
+echo -e "\e[$clr \n\t\t WAITING..."
+sleep 1.0
+cd music 
+bash music.sh
+;;
+esac

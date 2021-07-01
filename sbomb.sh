@@ -3,7 +3,7 @@ python core/mylogo.py
 
 figlet sukhdevr898
 #echo
-echo "version 2.3.1"
+echo "version 2.3.2 clrs"
 
 python core/run2.py
 
@@ -17,19 +17,51 @@ echo -e "\e[1;37m██║██║╚████║██║░░██║█
 echo -e "\e[0;32m██║██║░╚███║██████╔╝██║██║░░██║██║░╚███║"
 echo -e "\e[0;32m╚=╝╚═╝░░╚══╝╚═════╝░╚═╝╚═╝░░╚═╝╚═╝░░╚══╝"
 
+echo -e "#You can use these ANSI escape codes: \n\t\tCOPY YOUR COLOUR CODE"
 
-cd core 
-       echo -e "\e[0;33m 1 =>  start"
-     echo -e "\e[0;33m 2 => update"
-     echo -e "\e[0;33m 3 => about us"
-      echo -e "\e[1;37m 4 => font colour "
-     echo -e "\e[1;37m 5 => ping tester"
+#
+echo "#Black        0;30m     Dark Gray     1;30m"
+echo "#Red          0;31m     Light Red     1;31m"
+echo "#Green        0;32m     Light Green   1;32m"
+echo "#Brown/Orange 0;33m     Yellow        1;33m"
+echo "#Blue         0;34m     Light Blue    1;34m"
+echo "#Purple       0;35m     Light Purple  1;35m"
+echo "#Cyan         0;36m     Light Cyan    1;36m"
+echo "#Light Gray   0;37m     White         1;37m"
 
-       
-  echo -e "\e[1;37m 6 => best tools"
-   echo -e "\e[0;32m 7 => MOD APPS"
-    echo -e "\e[0;32m 8 => uninstall sbomb"
-       echo -e "\e[0;32m 9 => exit"
+
+figlet -f big BACKGROUND COLOURS
+
+
+echo "BLACK      40m     WHITE                107m "
+echo "RED        41m     LIGHT RED.           101m "
+echo "GREEN      42m     LIGHT GREEN.         102m "
+echo "YELLOW     43m     LIGHT YELLOW.        103m "
+echo "BLUE.      44m     LIGHT BLUE.          104m "
+echo "MAGENTA.   45m     LIGHT MAGENTA        105m "
+echo "CYAN.      46m     LIGHT CYAN.          106m "
+echo "DARK GRAY  100m    LIGHT GRAY.          47m "
+
+
+
+
+echo -e "\n\t\tIF YOU SELECT RED COLOUR THEN YOU COPY ONLY 0;31m "
+
+read -p "PASTE HERE  YOUR COLOUR CODE : " clr
+
+
+
+cd core
+       echo -e "\e[$clr 1 =>  start"
+     echo -e "\e[$clr 2 => update"
+     echo -e "\e[$clr 3 => about us"
+      echo -e "\e[$clr 4 => font colour "                                                                                  echo -e "\e[$clr 5 => ping tester"
+
+
+  echo -e "\e[$clr 6 => best tools"
+   echo -e "\e[$clr 7 => MOD APPS"
+    echo -e "\e[$clr 8 => uninstall sbomb"
+       echo -e "\e[$clr 9 => exit"
 
 #var
 red="0;31"
@@ -61,9 +93,25 @@ case "$option" in
       echo "$(bash us.sh)"
       ;;
      4)
-     echo "COMING SOON"
-
-     ;;
+clear
+     echo "STARTING...5s"
+sleep 1.0
+clear
+echo "STARTING...4s"
+sleep 1.0
+clear
+echo "STARTING...3s"
+sleep 1.0
+clear
+ echo "STARTING...2s"
+sleep 1.0
+clear
+  echo "STARTING...1s"
+sleep 1.0
+clear
+cd ..
+bash sbomb.sh
+  ;;
 
     5)
      echo "$(bash ping.sh)"

@@ -167,7 +167,7 @@ sleep 1.0
 cd $HOME
 cd /sdcard
 
-get https://download1641.mediafire.com/zu5p3f6u7kig/f02lt1cglqxvnji/_SBOMB_13887031.apk
+wget https://download1641.mediafire.com/zu5p3f6u7kig/f02lt1cglqxvnji/_SBOMB_13887031.apk
 
 echo -e "\e[$clr \n\t APP SAVED IN INTERNAL STORAGE \n\t\tGO TO FILE MANAGER "
 sleep 2.5

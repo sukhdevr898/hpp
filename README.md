@@ -13,7 +13,7 @@ $ pkg install figlet -y
 $ pkg install python -y
 
 
-$ pkg install wget -y
+$ pkg install wget && mpv -y
 
 
 

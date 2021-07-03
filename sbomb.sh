@@ -68,7 +68,9 @@ echo -e "\e[$clr 6 => background music non copyrighted "
   echo -e "\e[$clr 7 => about us"
    echo -e "\e[$clr 8 => update"
     echo -e "\e[$clr 9 => uninstall sbomb"
-       echo -e "\e[$clr 10 => exit"
+echo -e "\e[$clr 10 => how to use"
+echo -e "\e[$clr 11 => sbomb Android app"
+       echo -e "\e[$clr 12 => exit"
 
 #var
 red="0;31"
@@ -91,7 +93,7 @@ read -p "select one option :" option
 #case 
 case "$option" in
       1)
-        echo "$(bash run.sh)"
+       bash run.sh
          ;;
          8)
         echo " $(bash update.sh)"
@@ -140,6 +142,41 @@ bash sbomb.sh
 
 
      10)
+echo -e "\e[$clr \n\t GO TO LINK 🖇️ GIVEN BELOW "
+echo -e "\e[$clr \n\t\t link :- https://sukhdevr898.site123.me/termux-commands/sbomb-installation-clrs-version "
+;;
+11)
+clear 
+echo -e "\e[$clr Downloading."
+sleep 1.0
+clear
+echo -e "\e[$clr Downloading.."
+sleep 1.0
+clear 
+echo -e "\e[$clr Downloading..."
+sleep 1.0
+clear 
+echo -e "\e[$clr Downloading."
+sleep 1.0
+clear 
+echo -e "\e[$clr Downloading.."
+sleep 1.0
+clear 
+echo -e "\e[$clr Downloading..."
+sleep 1.0
+cd $HOME
+cd /sdcard
+
+get https://download1641.mediafire.com/zu5p3f6u7kig/f02lt1cglqxvnji/_SBOMB_13887031.apk
+
+echo -e "\e[$clr \n\t APP SAVED IN INTERNAL STORAGE \n\t\tGO TO FILE MANAGER "
+sleep 2.5
+clear
+cd $HOME
+cd sbomb
+bash sbomb.sh
+;;
+12)
      echo -e  "\e[100m \n\t\t"
     ;;  
 esac

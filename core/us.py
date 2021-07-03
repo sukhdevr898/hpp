@@ -53,6 +53,7 @@ logo = """\x1b[34m
           GITHUB         :   https://github.com.com/sukhdevr898   
 
            WHATSAPP      :  GO TO SITE 
+           TEAM.         : https://sukhdevr898.site123.me/team
 
 
 ###########:::::::::::::::#####$#####$$$$###############;#;#;;#;#;#;#;#;#;##:#::#:#:#:#:#:#:::::#########::#:#--
